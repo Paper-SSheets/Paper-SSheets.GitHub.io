@@ -33,3 +33,11 @@
 .timeline__block {
   min-height: 0;
 }
+
+.col-full h3 {
+	margin-top: 0;
+}
+
+.col-full h1 {
+	margin-bottom: 0;
+}
