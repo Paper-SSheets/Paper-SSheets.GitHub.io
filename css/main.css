@@ -2241,7 +2241,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-  padding-top: 4rem; 
+  padding-top: 4rem;
   padding-bottom: 9rem;
   background-color: #ffffff;
   position: relative;
@@ -4204,4 +4204,12 @@ article.blog-single .blog-content {
   .commentlist .comment__avatar {
     display: none;
   }
+}
+
+/* ------------------------------------------------------------------- 
+ * Custom Styles
+ * ------------------------------------------------------------------- */
+
+.site-logo img {
+  margin-top: 5px;
 }

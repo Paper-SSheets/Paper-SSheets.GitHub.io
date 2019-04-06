@@ -37,10 +37,16 @@
   min-height: 0;
 }
 
-.col-full h1, h2, h3 {
-	margin-top: 0;
+.col-full h1,
+h2,
+h3 {
+  margin-top: 0;
 }
 
 .btn_course {
-	width: 70%;
+  width: 70%;
+}
+
+#related-courses {
+  margin-top: 20px;
 }
