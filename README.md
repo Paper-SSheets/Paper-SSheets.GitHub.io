@@ -1,2 +1,2 @@
 # Paper-SSheets.GitHub.io
-Personal portfolio website.
+Portfolio website.

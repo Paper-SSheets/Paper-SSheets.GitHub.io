@@ -1,0 +1,35 @@
+#particles-js {
+  background-image: linear-gradient(red, blue);
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+#about {
+  position: relative;
+}
+.clickthrough {
+  pointer-events: none;
+}
+
+.non-clickthrough {
+  pointer-events: auto;
+}
+
+.course {
+  min-height: 0;
+}
+.course h4 {
+  margin-top: 0rem;
+  font-size: 18px;
+}
+
+.btn_course {
+  margin-top: 4rem;
+}
+
+.timeline__block {
+  min-height: 0;
+}
