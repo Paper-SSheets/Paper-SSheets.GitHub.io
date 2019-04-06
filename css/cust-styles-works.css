@@ -9,3 +9,8 @@
 .s-header .header-nav-wrap {
   top: 0;
 }
+
+.col-full text-center {
+	margin: 0 auto;
+	top: 0;
+}
