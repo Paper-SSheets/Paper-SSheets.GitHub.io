@@ -2,7 +2,14 @@
   background-image: linear-gradient(red, blue);
 }
 
-#particles-js {
+#home #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+#music #particles-js {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -50,3 +57,55 @@ h3 {
 #related-courses {
   margin-top: 20px;
 }
+
+.s-music {
+  position: relative; 
+  height: 1300px;
+}
+
+.s-music .shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /*Match the height of particles*/
+  height: 100%;
+  opacity: 0.8;
+  background: -moz-linear-gradient(
+    top,
+    transparent 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    transparent 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background: linear-gradient(
+    to top,
+    transparent 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+}
+
+.s-music .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #111111;
+}
+
+.s-music .col-full {
+  margin-top: 50px;
+}
+
+.s-music .col-full h1, .s-music .col-full p, .s-music .col-full h1{
+  color: white;
+}
+
+#music-footer {
+}
+
