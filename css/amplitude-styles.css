@@ -7071,7 +7071,8 @@ div#amplitude-player {
   background: #ffffff;
   box-shadow: 0 2px 12px 8px rgba(0, 0, 0, 0.1);
   margin: auto;
-  margin-top: 20px;
+  z-index: 999;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 
