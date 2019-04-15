@@ -3092,9 +3092,11 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
   background-color: #151515;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/picsofme/MeInMoth.jpg");
   background-repeat: no-repeat;
   background-position: center, center;
+  background-position-y: 25%;
+  background-size: cover;
   padding-top: 13.2rem;
   padding-bottom: 12rem;
   color: rgba(255, 255, 255, 0.5);
