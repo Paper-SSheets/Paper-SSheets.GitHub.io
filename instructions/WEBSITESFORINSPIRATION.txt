@@ -13,3 +13,12 @@ http://web.cs.iastate.edu/~cs106hp1/advance/new5/aboutme.html
 http://catalog.iastate.edu/collegeofengineering/softwareengineering/#courseinventory
 http://catalog.iastate.edu/collegeofliberalartsandsciences/computerscience/#courseinventory
 http://catalog.iastate.edu/collegeofengineering/computerengineering/#courseinventory
+
+
+## Portfolio Image Sizes
+#### Square Images
+- 500 x 500
+- 1000 x 1000
+#### Rectangle Images
+- 500 x 625
+- 1000 x 1250
