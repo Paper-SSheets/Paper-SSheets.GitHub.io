@@ -386,7 +386,6 @@
     ssSmoothScroll();
     ssPlaceholder();
     ssAlertBoxes();
-    ssContactForm();
     ssBackToTop();
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   })();
