@@ -320,7 +320,7 @@
 
         $.ajax({
           type: "POST",
-          url: "inc/sendEmail.php",
+          url: "https://formspree.io/steven.sheets159@gmail.com",
           data: $(form).serialize(),
           beforeSend: function() {
             sLoader.slideDown("slow");
