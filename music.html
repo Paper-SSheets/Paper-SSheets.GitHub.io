@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9]>
+<html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-  <!--<![endif]-->
+<!--<![endif]-->
 
-  <head>
+<head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <title>Steven Sheets</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/amplitude-styles.css" />
+    <link rel="stylesheet" href="css/amplitude-styles.css"/>
     <!--First so that it gets overridden-->
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/vendor.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/cust-styles.css" />
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/vendor.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/cust-styles.css"/>
 
     <!-- script
     ================================================== -->
@@ -33,653 +35,652 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  </head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
 
-  <body id="top">
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-      <div class="header-logo">
+<body id="top">
+<!-- header
+================================================== -->
+<header class="s-header">
+    <div class="header-logo">
         <a class="site-logo" href="index.html"
-          ><img src="images/logo.png" alt="Homepage"
+        ><img src="images/logo.png" alt="Homepage"
         /></a>
-      </div>
+    </div>
 
-      <nav class="header-nav-wrap">
+    <nav class="header-nav-wrap">
         <ul class="header-nav">
-          <li>
-            <a href="index.html#home" title="home">Home</a>
-          </li>
-          <li><a href="index.html#about" title="about">About</a></li>
-          <li><a href="works.html" title="works">Works</a></li>
-          <li>
-            <a href="contact.html" title="contact">Contact</a>
-          </li>
+            <li>
+                <a href="index.html#home" title="home">Home</a>
+            </li>
+            <li><a href="index.html#about" title="about">About</a></li>
+            <li><a href="works.html" title="works">Works</a></li>
+            <li>
+                <a href="contact.html" title="contact">Contact</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
 
-      <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-    </header>
-    <!-- end s-header -->
-    <section id="music" class="s-music target-section">
+    <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+</header>
+<!-- end s-header -->
+<section id="music" class="s-music target-section">
 
     <div id="particles-js"></div>
-      <div class="overlay"></div>
-      <div class="shadow-overlay"></div>
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
 
     <div class="col-full text-center">
-      <div class="row narrow section-intro has-bottom-sep">
-        <div class="col-full">
-          <h1>Some of my favorite music...</h1>
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h1>Some of my favorite music...</h1>
+            </div>
         </div>
-      </div>
 
-      <div class="grid-x" id="blue-playlist-container">
-        <div
-          class="large-9 medium-12 small-11 large-centered medium-centered small-centered cell"
-          id="amplitude-player"
-        >
-          <div class="grid-x">
-            <div class="large-6 medium-6 small-12 cell" id="amplitude-left">
-              <img data-amplitude-song-info="cover_art_url" />
-              <div id="player-left-bottom">
-                <div id="time-container">
+        <div class="grid-x" id="blue-playlist-container">
+            <div
+                    class="large-9 medium-12 small-11 large-centered medium-centered small-centered cell"
+                    id="amplitude-player"
+            >
+                <div class="grid-x">
+                    <div class="large-6 medium-6 small-12 cell" id="amplitude-left">
+                        <img data-amplitude-song-info="cover_art_url"/>
+                        <div id="player-left-bottom">
+                            <div id="time-container">
                   <span class="current-time">
                     <span class="amplitude-current-minutes"></span>:<span
-                      class="amplitude-current-seconds"
-                    ></span>
+                          class="amplitude-current-seconds"
+                  ></span>
                   </span>
-                  <div id="progress-container">
-                    <input type="range" class="amplitude-song-slider" />
-                    <progress
-                      id="song-played-progress"
-                      class="amplitude-song-played-progress"
-                    ></progress>
-                    <progress
-                      id="song-buffered-progress"
-                      class="amplitude-buffered-progress"
-                      value="0"
-                    ></progress>
-                  </div>
-                  <span class="duration">
+                                <div id="progress-container">
+                                    <input type="range" class="amplitude-song-slider"/>
+                                    <progress
+                                            id="song-played-progress"
+                                            class="amplitude-song-played-progress"
+                                    ></progress>
+                                    <progress
+                                            id="song-buffered-progress"
+                                            class="amplitude-buffered-progress"
+                                            value="0"
+                                    ></progress>
+                                </div>
+                                <span class="duration">
                     <span class="amplitude-duration-minutes"></span>:<span
-                      class="amplitude-duration-seconds"
-                    ></span>
+                                        class="amplitude-duration-seconds"
+                                ></span>
                   </span>
-                </div>
+                            </div>
 
-                <div id="control-container">
-                  <div id="repeat-container">
-                    <div class="amplitude-repeat" id="repeat"></div>
-                    <div
-                      class="amplitude-shuffle amplitude-shuffle-off"
-                      id="shuffle"
-                    ></div>
-                  </div>
+                            <div id="control-container">
+                                <div id="repeat-container">
+                                    <div class="amplitude-repeat" id="repeat"></div>
+                                    <div
+                                            class="amplitude-shuffle amplitude-shuffle-off"
+                                            id="shuffle"
+                                    ></div>
+                                </div>
 
-                  <div id="central-control-container">
-                    <div id="central-controls">
-                      <div class="amplitude-prev" id="previous"></div>
-                      <div class="amplitude-play-pause" id="play-pause"></div>
-                      <div class="amplitude-next" id="next"></div>
-                    </div>
-                  </div>
+                                <div id="central-control-container">
+                                    <div id="central-controls">
+                                        <div class="amplitude-prev" id="previous"></div>
+                                        <div class="amplitude-play-pause" id="play-pause"></div>
+                                        <div class="amplitude-next" id="next"></div>
+                                    </div>
+                                </div>
 
-                  <div id="volume-container">
-                    <div class="volume-controls">
-                      <div class="amplitude-mute amplitude-not-muted"></div>
-                      <input type="range" class="amplitude-volume-slider" />
-                      <div class="ms-range-fix"></div>
-                    </div>
-                    <div
-                      class="amplitude-shuffle amplitude-shuffle-off"
-                      id="shuffle-right"
-                    ></div>
-                  </div>
-                </div>
+                                <div id="volume-container">
+                                    <div class="volume-controls">
+                                        <div class="amplitude-mute amplitude-not-muted"></div>
+                                        <input type="range" class="amplitude-volume-slider"/>
+                                        <div class="ms-range-fix"></div>
+                                    </div>
+                                    <div
+                                            class="amplitude-shuffle amplitude-shuffle-off"
+                                            id="shuffle-right"
+                                    ></div>
+                                </div>
+                            </div>
 
-                <div id="meta-container">
+                            <div id="meta-container">
                   <span
-                    data-amplitude-song-info="name"
-                    class="song-name"
+                          data-amplitude-song-info="name"
+                          class="song-name"
                   ></span>
 
-                  <div class="song-artist-album">
-                    <span data-amplitude-song-info="artist"></span>
-                    <span data-amplitude-song-info="album"></span>
-                  </div>
+                                <div class="song-artist-album">
+                                    <span data-amplitude-song-info="artist"></span>
+                                    <span data-amplitude-song-info="album"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-6 medium-6 small-12 cell" id="amplitude-right">
+
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="0"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">You Should See Me in a Crown</span>
+                                <span class="song-artist">Billie Eilish</span>
+                            </div>
+                            <a
+                                    href="https://swistchstancerecordings.bandcamp.com/track/risin-high-feat-raashan-ahmad"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">3:02</span>
+                        </div>
+
+
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="1"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">&burn</span>
+                                <span class="song-artist">Billie Eilish, Vince Staples</span>
+                            </div>
+                            <a
+                                    href="https://lorn.bandcamp.com/"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">3:00</span>
+                        </div>
+
+
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="2"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Bloodstream</span>
+                                <span class="song-artist">Chainsmokers</span>
+                            </div>
+                            <a
+                                    href="https://lorn.bandcamp.com/"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">3:46</span>
+                        </div>
+
+
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="3"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Closer</span>
+                                <span class="song-artist">The Chainsmokers</span>
+                            </div>
+                            <a
+                                    href="https://switchstancerecordings.bandcamp.com/track/i-came-running"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">4:05</span>
+                        </div>
+
+
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="4"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">First Snow</span>
+                                <span class="song-artist">Emancipator</span>
+                            </div>
+                            <a
+                                    href="https://emancipator.bandcamp.com"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">5:12</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="5"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Terrain</span>
+                                <span class="song-artist">pg.lost</span>
+                            </div>
+                            <a
+                                    href="https://pglost.bandcamp.com/track/terrain"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">5:29</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="6"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Vorel</span>
+                                <span class="song-artist">Russian Circles</span>
+                            </div>
+                            <a
+                                    href="https://russiancircles.bandcamp.com/track/vorel"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">5:29</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="7"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Intro / Sweet Glory</span>
+                                <span class="song-artist">Jimkata</span>
+                            </div>
+                            <a
+                                    href="http://jimkata.bandcamp.com/track/intro-sweet-glory"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">2:39</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="8"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Offcut #6</span>
+                                <span class="song-artist">Little People</span>
+                            </div>
+                            <a
+                                    href="https://littlepeople.bandcamp.com/track/offcut-6"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">1:00</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="9"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Dusk To Dawn</span>
+                                <span class="song-artist">Emancipator</span>
+                            </div>
+                            <a
+                                    href="https://emancipator.bandcamp.com/track/dusk-to-dawn-2"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">5:25</span>
+                        </div>
+                        <div
+                                class="song amplitude-song-container amplitude-play-pause"
+                                data-amplitude-song-index="10"
+                        >
+                            <div class="song-now-playing-icon-container">
+                                <div class="play-button-container"></div>
+                                <img
+                                        class="now-playing"
+                                        src="./images/amplitude/img/now-playing.svg"
+                                />
+                            </div>
+                            <div class="song-meta-data">
+                                <span class="song-title">Anthem</span>
+                                <span class="song-artist">Emancipator</span>
+                            </div>
+                            <a
+                                    href="https://emancipator.bandcamp.com/track/anthem"
+                                    class="bandcamp-link"
+                                    target="_blank"
+                            >
+                                <img
+                                        class="bandcamp-grey"
+                                        src="./images/amplitude/img/bandcamp-grey.svg"
+                                />
+                                <img
+                                        class="bandcamp-white"
+                                        src="./images/amplitude/img/bandcamp-white.svg"
+                                />
+                            </a>
+                            <span class="song-duration">5:40</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="large-6 medium-6 small-12 cell" id="amplitude-right">
-			
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="0"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">You Should See Me in a Crown</span>
-                  <span class="song-artist">Billie Eilish</span>
-                </div>
-                <a
-                  href="https://swistchstancerecordings.bandcamp.com/track/risin-high-feat-raashan-ahmad"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">3:02</span>
-              </div>
-			  
-			  
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="1"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">&burn</span>
-                  <span class="song-artist">Billie Eilish, Vince Staples</span>
-                </div>
-                <a
-                  href="https://lorn.bandcamp.com/"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">3:00</span>
-              </div>
-			  
-			  
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="2"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Bloodstream</span>
-                  <span class="song-artist">Chainsmokers</span>
-                </div>
-                <a
-                  href="https://lorn.bandcamp.com/"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">3:46</span>
-              </div>
-			  
-			  
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="3"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Closer</span>
-                  <span class="song-artist">The Chainsmokers</span>
-                </div>
-                <a
-                  href="https://switchstancerecordings.bandcamp.com/track/i-came-running"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">4:05</span>
-              </div>
-			  
-			  
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="4"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">First Snow</span>
-                  <span class="song-artist">Emancipator</span>
-                </div>
-                <a
-                  href="https://emancipator.bandcamp.com"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">5:12</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="5"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Terrain</span>
-                  <span class="song-artist">pg.lost</span>
-                </div>
-                <a
-                  href="https://pglost.bandcamp.com/track/terrain"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">5:29</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="6"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Vorel</span>
-                  <span class="song-artist">Russian Circles</span>
-                </div>
-                <a
-                  href="https://russiancircles.bandcamp.com/track/vorel"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">5:29</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="7"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Intro / Sweet Glory</span>
-                  <span class="song-artist">Jimkata</span>
-                </div>
-                <a
-                  href="http://jimkata.bandcamp.com/track/intro-sweet-glory"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">2:39</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="8"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Offcut #6</span>
-                  <span class="song-artist">Little People</span>
-                </div>
-                <a
-                  href="https://littlepeople.bandcamp.com/track/offcut-6"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">1:00</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="9"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Dusk To Dawn</span>
-                  <span class="song-artist">Emancipator</span>
-                </div>
-                <a
-                  href="https://emancipator.bandcamp.com/track/dusk-to-dawn-2"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">5:25</span>
-              </div>
-              <div
-                class="song amplitude-song-container amplitude-play-pause"
-                data-amplitude-song-index="10"
-              >
-                <div class="song-now-playing-icon-container">
-                  <div class="play-button-container"></div>
-                  <img
-                    class="now-playing"
-                    src="./images/amplitude/img/now-playing.svg"
-                  />
-                </div>
-                <div class="song-meta-data">
-                  <span class="song-title">Anthem</span>
-                  <span class="song-artist">Emancipator</span>
-                </div>
-                <a
-                  href="https://emancipator.bandcamp.com/track/anthem"
-                  class="bandcamp-link"
-                  target="_blank"
-                >
-                  <img
-                    class="bandcamp-grey"
-                    src="./images/amplitude/img/bandcamp-grey.svg"
-                  />
-                  <img
-                    class="bandcamp-white"
-                    src="./images/amplitude/img/bandcamp-white.svg"
-                  />
-                </a>
-                <span class="song-duration">5:40</span>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-    </section>
+</section>
 
-  
 
-    <!-- footer
-    ================================================== -->
-    <footer id="music-footer">
-      <div class="row">
+<!-- footer
+================================================== -->
+<footer id="music-footer">
+    <div class="row">
         <div class="col-full">
-          <div class="footer-logo">
-            <a class="footer-site-logo" href="#0"
-              ><img src="images/logo.png" alt="Homepage"
-            /></a>
-          </div>
+            <div class="footer-logo">
+                <a class="footer-site-logo" href="#0"
+                ><img src="images/logo.png" alt="Homepage"
+                /></a>
+            </div>
 
-          <ul class="footer-social">
-			<li>
-				<a
-					href="https://www.linkedin.com/in/steven-sheets159/"
-					target="_blank"
-					><i class="im im-linkedin" aria-hidden="true"></i
-					><span>LinkedIn</span>
-				</a>
-			  </li>
-			  <li>
-				<a href="https://twitter.com/paper_ssheets" target="_blank"
-				  ><i class="im im-twitter" aria-hidden="true"></i
-				  ><span>Twitter</span></a
-				>
-			  </li>
-			  <li>
-				<a href="https://www.snapchat.com/add/steven_sheets" target="_blank"
-				  ><i class="im im-snapchat" aria-hidden="true"></i
-				  ><span>Snapchat</span></a
-				>
-			  </li>
-			  <li>
-				<a href="https://www.facebook.com/paper.ssheets"
-				  ><i class="im im-facebook" aria-hidden="true"></i
-				  ><span>Facebook</span></a
-				>
-			  </li>
+            <ul class="footer-social">
+                <li>
+                    <a
+                            href="https://www.linkedin.com/in/steven-sheets159/"
+                            target="_blank"
+                    ><i class="im im-linkedin" aria-hidden="true"></i
+                    ><span>LinkedIn</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/paper_ssheets" target="_blank"
+                    ><i class="im im-twitter" aria-hidden="true"></i
+                    ><span>Twitter</span></a
+                    >
+                </li>
+                <li>
+                    <a href="https://www.snapchat.com/add/steven_sheets" target="_blank"
+                    ><i class="im im-snapchat" aria-hidden="true"></i
+                    ><span>Snapchat</span></a
+                    >
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/paper.ssheets"
+                    ><i class="im im-facebook" aria-hidden="true"></i
+                    ><span>Facebook</span></a
+                    >
+                </li>
 
-			  <li>
-				<a href="https://www.instagram.com/paper_ssheets/"
-				  ><i class="im im-instagram" aria-hidden="true"></i
-				  ><span>Instagram</span></a
-				>
-			  </li>
-          </ul>
+                <li>
+                    <a href="https://www.instagram.com/paper_ssheets/"
+                    ><i class="im im-instagram" aria-hidden="true"></i
+                    ><span>Instagram</span></a
+                    >
+                </li>
+            </ul>
         </div>
-      </div>
-
-      <div class="row footer-bottom">
-        <div class="col-twelve">
-          <div class="copyright">
-            <span>© Copyright Hola 2017</span>
-            <span
-              >Design by
-              <a href="https://www.styleshout.com/">styleshout</a></span
-            >
-          </div>
-
-          <div class="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"
-              ><i class="im im-arrow-up" aria-hidden="true"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-      <!-- end footer-bottom -->
-    </footer>
-    <!-- end footer -->
-
-    <div id="preloader">
-      <div id="loader"></div>
     </div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="particles/particles.min.js"></script>
-    <script src="js/cust-main.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/amplitudejs@4.1.0/dist/amplitude.js"></script>
+    <div class="row footer-bottom">
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>© Copyright Hola 2017</span>
+                <span
+                >Design by
+              <a href="https://www.styleshout.com/">styleshout</a></span
+                >
+            </div>
 
-    <script>
-      console.log("Loading Amplitude-js");
-      Amplitude.init({
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"
+                ><i class="im im-arrow-up" aria-hidden="true"></i
+                ></a>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-bottom -->
+</footer>
+<!-- end footer -->
+
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+
+<!-- Java Script
+================================================== -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="particles/particles.min.js"></script>
+<script src="js/cust-main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/amplitudejs@4.1.0/dist/amplitude.js"></script>
+
+<script>
+    console.log("Loading Amplitude-js");
+    Amplitude.init({
         songs: [
-          {
-            name: "You Should See Me in a Crown",
-            artist: "Billie Eilish",
-            album: "WHEN WE ALL FALL ASLEEP WHERE DO WE GO?",
-            url: "./music/Billie Eilish - you should see me in a crown.mp3",
-            cover_art_url: "./music/artist_pictures/Billie-SeeMeInACrown.jpg"
-          },
-          {
-            name: "&burn",
-            artist: "Billie Eilish",
-            album: "Don't Smile at Me",
-            url: "./music/Billie Eilish, Vince Stables - &burn.mp3",
-            cover_art_url: "./music/artist_pictures/Billie-&burn.jpg"
-          },
-          {
-            name: "Bloodstream",
-            artist: "Chainsmokers",
-            album: "Memories...Do Not Open",
-            url: "./music/The Chainsmokers - Bloodstream.mp3",
-            cover_art_url:
-              "./music/artist_pictures/Chainsmokers-Bloodstream.jpg"
-          },
-          {
-            name: "Closer",
-            artist: "Chainsmokers",
-            album: "Collage",
-            url: "./music/The Chainsmokers - Closer ft. Halsey.mp3",
-            cover_art_url: "./music/artist_pictures/Chainsmokers-Closer.jpg"
-          },
-          {
-            name: "First Snow",
-            artist: "Emancipator",
-            album: "Soon It Will Be Cold Enough",
-            url: "../songs/FirstSnow-Emancipator.mp3",
-            cover_art_url: "../album-art/soon-it-will-be-cold-enough.jpg"
-          },
-          {
-            name: "Terrain",
-            artist: "pg.lost",
-            album: "Key",
-            url: "../songs/Terrain-pglost.mp3",
-            cover_art_url: "../album-art/key.jpg"
-          },
-          {
-            name: "Vorel",
-            artist: "Russian Circles",
-            album: "Guidance",
-            url: "../songs/Vorel-RussianCircles.mp3",
-            cover_art_url: "../album-art/guidance.jpg"
-          },
-          {
-            name: "Intro / Sweet Glory",
-            artist: "Jimkata",
-            album: "Die Digital",
-            url: "../songs/IntroSweetGlory-Jimkata.mp3",
-            cover_art_url: "../album-art/die-digital.jpg"
-          },
-          {
-            name: "Offcut #6",
-            artist: "Little People",
-            album: "We Are But Hunks of Wood Remixes",
-            url: "../songs/Offcut6-LittlePeople.mp3",
-            cover_art_url: "../album-art/we-are-but-hunks-of-wood.jpg"
-          },
-          {
-            name: "Dusk To Dawn",
-            artist: "Emancipator",
-            album: "Dusk To Dawn",
-            url: "../songs/DuskToDawn-Emancipator.mp3",
-            cover_art_url: "../album-art/from-dusk-to-dawn.jpg"
-          },
-          {
-            name: "Anthem",
-            artist: "Emancipator",
-            album: "Soon It Will Be Cold Enough",
-            url: "../songs/Anthem-Emancipator.mp3",
-            cover_art_url: "../album-art/soon-it-will-be-cold-enough.jpg"
-          }
+            {
+                name: "You Should See Me in a Crown",
+                artist: "Billie Eilish",
+                album: "WHEN WE ALL FALL ASLEEP WHERE DO WE GO?",
+                url: "./music/Billie Eilish - you should see me in a crown.mp3",
+                cover_art_url: "./music/artist_pictures/Billie-SeeMeInACrown.jpg"
+            },
+            {
+                name: "&burn",
+                artist: "Billie Eilish",
+                album: "Don't Smile at Me",
+                url: "./music/Billie Eilish, Vince Stables - &burn.mp3",
+                cover_art_url: "./music/artist_pictures/Billie-&burn.jpg"
+            },
+            {
+                name: "Bloodstream",
+                artist: "Chainsmokers",
+                album: "Memories...Do Not Open",
+                url: "./music/The Chainsmokers - Bloodstream.mp3",
+                cover_art_url:
+                    "./music/artist_pictures/Chainsmokers-Bloodstream.jpg"
+            },
+            {
+                name: "Closer",
+                artist: "Chainsmokers",
+                album: "Collage",
+                url: "./music/The Chainsmokers - Closer ft. Halsey.mp3",
+                cover_art_url: "./music/artist_pictures/Chainsmokers-Closer.jpg"
+            },
+            {
+                name: "First Snow",
+                artist: "Emancipator",
+                album: "Soon It Will Be Cold Enough",
+                url: "../songs/FirstSnow-Emancipator.mp3",
+                cover_art_url: "../album-art/soon-it-will-be-cold-enough.jpg"
+            },
+            {
+                name: "Terrain",
+                artist: "pg.lost",
+                album: "Key",
+                url: "../songs/Terrain-pglost.mp3",
+                cover_art_url: "../album-art/key.jpg"
+            },
+            {
+                name: "Vorel",
+                artist: "Russian Circles",
+                album: "Guidance",
+                url: "../songs/Vorel-RussianCircles.mp3",
+                cover_art_url: "../album-art/guidance.jpg"
+            },
+            {
+                name: "Intro / Sweet Glory",
+                artist: "Jimkata",
+                album: "Die Digital",
+                url: "../songs/IntroSweetGlory-Jimkata.mp3",
+                cover_art_url: "../album-art/die-digital.jpg"
+            },
+            {
+                name: "Offcut #6",
+                artist: "Little People",
+                album: "We Are But Hunks of Wood Remixes",
+                url: "../songs/Offcut6-LittlePeople.mp3",
+                cover_art_url: "../album-art/we-are-but-hunks-of-wood.jpg"
+            },
+            {
+                name: "Dusk To Dawn",
+                artist: "Emancipator",
+                album: "Dusk To Dawn",
+                url: "../songs/DuskToDawn-Emancipator.mp3",
+                cover_art_url: "../album-art/from-dusk-to-dawn.jpg"
+            },
+            {
+                name: "Anthem",
+                artist: "Emancipator",
+                album: "Soon It Will Be Cold Enough",
+                url: "../songs/Anthem-Emancipator.mp3",
+                cover_art_url: "../album-art/soon-it-will-be-cold-enough.jpg"
+            }
         ]
-      });
-    </script>
-  </body>
+    });
+</script>
+</body>
 </html>
