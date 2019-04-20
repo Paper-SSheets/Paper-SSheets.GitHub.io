@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540f0bca-d01c-40c9-bb60-1ddde71252ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/artist_pictures/Halsey-Sorry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/artist_pictures/Panic-CollarFull.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/music/artist_pictures/Panic-CollarFull.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/artist_pictures/Panic-NearlyWitches.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/music/artist_pictures/Panic-NearlyWitches.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/music.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="520" column="24" selection-start-line="520" selection-start-column="24" selection-end-line="520" selection-end-column="24" />
+            <state relative-caret-position="316">
+              <caret line="748" column="44" selection-start-line="748" selection-start-column="44" selection-end-line="748" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -129,12 +127,12 @@
       <workItem from="1555726520628" duration="425000" />
       <workItem from="1555782648598" duration="520000" />
       <workItem from="1555783522299" duration="4430000" />
-      <workItem from="1555789305494" duration="4033000" />
+      <workItem from="1555789305494" duration="7171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11082000" />
+    <option name="totallyTimeSpent" value="14220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="497" y="0" width="1053" height="830" extended-state="0" />
@@ -355,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/music.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="520" column="24" selection-start-line="520" selection-start-column="24" selection-end-line="520" selection-end-column="24" />
+        <state relative-caret-position="316">
+          <caret line="748" column="44" selection-start-line="748" selection-start-column="44" selection-end-line="748" selection-end-column="44" />
         </state>
       </provider>
     </entry>
