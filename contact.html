@@ -12,19 +12,19 @@
     ================================================== -->
     <meta charset="utf-8"/>
     <title>Steven Sheets</title>
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css"/>
-    <link rel="stylesheet" href="css/vendor.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel="stylesheet" href="css/cust-styles.css"/>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/vendor.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/cust-styles.css" rel="stylesheet"/>
 
     <!-- script
     ================================================== -->
@@ -33,8 +33,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
 </head>
 
 <body id="top">
@@ -43,7 +43,7 @@
 <header class="s-header">
     <div class="header-logo">
         <a class="site-logo" href="index.html"
-        ><img src="images/logo.png" alt="Homepage"
+        ><img alt="Homepage" src="images/logo.png"
         /></a>
     </div>
 
@@ -68,7 +68,7 @@
 
 <!-- contact
 ================================================== -->
-<section id="contact" class="s-contact target-section">
+<section class="s-contact target-section" id="contact">
     <div class="overlay"></div>
 
     <div class="row narrow section-intro">
@@ -85,54 +85,54 @@
 
     <div class="row contact__main">
         <div class="col-eight tab-full contact__form">
-            <form name="contactForm" id="contactForm" method="post"
-                  action="https://formspree.io/steven.sheets159@gmail.com">
+            <form action="https://formspree.io/steven.sheets159@gmail.com" id="contactForm" method="post"
+                  name="contactForm">
                 <fieldset>
                     <div class="form-field">
                         <input
-                                name="contactName"
-                                type="text"
+                                aria-required="true"
+                                class="full-width"
                                 id="contactName"
-                                placeholder="Name"
-                                value=""
                                 minlength="2"
+                                name="contactName"
+                                placeholder="Name"
                                 required=""
-                                aria-required="true"
-                                class="full-width"
-                        />
-                    </div>
-                    <div class="form-field">
-                        <input
-                                name="contactEmail"
-                                type="email"
-                                id="contactEmail"
-                                placeholder="Email"
-                                value=""
-                                required=""
-                                aria-required="true"
-                                class="full-width"
-                        />
-                    </div>
-                    <div class="form-field">
-                        <input
-                                name="contactSubject"
                                 type="text"
-                                id="contactSubject"
-                                placeholder="Subject"
                                 value=""
+                        />
+                    </div>
+                    <div class="form-field">
+                        <input
+                                aria-required="true"
                                 class="full-width"
+                                id="contactEmail"
+                                name="contactEmail"
+                                placeholder="Email"
+                                required=""
+                                type="email"
+                                value=""
+                        />
+                    </div>
+                    <div class="form-field">
+                        <input
+                                class="full-width"
+                                id="contactSubject"
+                                name="contactSubject"
+                                placeholder="Subject"
+                                type="text"
+                                value=""
                         />
                     </div>
                     <div class="form-field">
                 <textarea
-                        name="contactMessage"
-                        id="contactMessage"
-                        placeholder="message"
-                        rows="10"
-                        cols="50"
-                        required=""
                         aria-required="true"
                         class="full-width"
+                        cols="50"
+                        id="contactMessage"
+                        name="contactMessage"
+                        placeholder="message"
+                        required=""
+                        rows="10"
                 ></textarea>
                     </div>
                     <div class="form-field">
@@ -189,41 +189,39 @@
         <div class="col-full">
             <div class="footer-logo">
                 <a class="footer-site-logo" href="#0"
-                ><img src="images/logo.png" alt="Homepage"
+                ><img alt="Homepage" src="images/logo.png"
                 /></a>
             </div>
 
             <ul class="footer-social">
                 <li>
-                    <a
-                            href="https://www.linkedin.com/in/steven-sheets159/"
-                            target="_blank"
-                    ><i class="im im-linkedin" aria-hidden="true"></i
+                    <a href="https://www.linkedin.com/in/steven-sheets159/" target="_blank"
+                    ><i aria-hidden="true" class="im im-linkedin"></i
                     ><span>LinkedIn</span>
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/paper_ssheets" target="_blank"
-                    ><i class="im im-twitter" aria-hidden="true"></i
+                    ><i aria-hidden="true" class="im im-twitter"></i
                     ><span>Twitter</span></a
                     >
                 </li>
                 <li>
                     <a href="https://www.snapchat.com/add/steven_sheets" target="_blank"
-                    ><i class="im im-snapchat" aria-hidden="true"></i
+                    ><i aria-hidden="true" class="im im-snapchat"></i
                     ><span>Snapchat</span></a
                     >
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/paper.ssheets"
-                    ><i class="im im-facebook" aria-hidden="true"></i
+                    <a href="https://www.facebook.com/paper.ssheets" target="_blank"
+                    ><i aria-hidden="true" class="im im-facebook"></i
                     ><span>Facebook</span></a
                     >
                 </li>
 
                 <li>
-                    <a href="https://www.instagram.com/paper_ssheets/"
-                    ><i class="im im-instagram" aria-hidden="true"></i
+                    <a href="https://www.instagram.com/paper_ssheets/" target="_blank"
+                    ><i aria-hidden="true" class="im im-instagram"></i
                     ><span>Instagram</span></a
                     >
                 </li>
@@ -242,8 +240,8 @@
             </div>
 
             <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"
-                ><i class="im im-arrow-up" aria-hidden="true"></i
+                <a class="smoothscroll" href="#top" title="Back to Top"
+                ><i aria-hidden="true" class="im im-arrow-up"></i
                 ></a>
             </div>
         </div>
