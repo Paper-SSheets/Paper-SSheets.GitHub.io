@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/css/iconic/css/iconmonstr-iconic-font.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/iconic/css/iconmonstr-iconic-font.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vendor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/bandcamp-grey.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/bandcamp-grey.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/bandcamp-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/bandcamp-white.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/bandcamp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/bandcamp.svg" afterDir="false" />
@@ -26,8 +27,9 @@
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/shuffle-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/shuffle-off.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/shuffle-on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/shuffle-on.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/amplitude/img/volume.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/amplitude/img/volume.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/portfolio/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions/G3_StevenSheets_HomePageLink.docx" beforeDir="false" afterPath="$PROJECT_DIR$/instructions/G3_StevenSheets_HomePageLink.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions/G3_StevenSheets_HomePageLink.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
@@ -46,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/works.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
+            <state relative-caret-position="321">
+              <caret line="245" column="53" lean-forward="true" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -57,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jpg</find>
+      <find>filler</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,13 +68,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/works.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="187" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -80,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,7 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,17 +127,19 @@
       <updated>1556127509616</updated>
       <workItem from="1556127512237" duration="92000" />
       <workItem from="1556135057182" duration="241000" />
+      <workItem from="1556226220658" duration="1561000" />
+      <workItem from="1556840874340" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333000" />
+    <option name="totallyTimeSpent" value="2231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="352" y="187" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17911434" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24889868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -156,23 +162,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="99" column="26" lean-forward="true" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#1;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#div#0;n#div#0;n#div#1;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1440">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/works.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
+        <state relative-caret-position="321">
+          <caret line="245" column="53" lean-forward="true" selection-start-line="245" selection-start-column="53" selection-end-line="245" selection-end-column="53" />
         </state>
       </provider>
     </entry>
